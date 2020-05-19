@@ -4,8 +4,9 @@
 }
 
 .scoreboard {
-  width: 58%;
-  margin: 10rem auto;
+  width: 80%;
+  height: 90vh;
+  margin: 5rem auto;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
@@ -18,7 +19,7 @@
   display: flex;
   justify-content: space-around;
   place-items: center;
-  /* height: 20rem; */
+  height: 20rem;
 }
 
 .home,
@@ -86,7 +87,7 @@
 .quarter {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   place-items: center;
 }
 
@@ -106,17 +107,21 @@
   border: 1px solid white;
 }
 
-.buttons {
-  width: 50%;
-  margin: 0 auto;
+/* .buttons {
+  width: 23%;
+  margin: 1% auto;
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: center;
+} */
 
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.down_reset_button,
+.down_button,
+.quarter_button {
   margin: 1rem;
   border-radius: 4px;
+  border: 2px inset red,
 }
